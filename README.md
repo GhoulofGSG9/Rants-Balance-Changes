@@ -47,7 +47,7 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
     - Shotgun 
         - Removed damage falloff
         - Change the spread pattern to 13 pellets total with variable sizes and damage values:
-        [shotgun spread pattern comparision](https://trello-attachments.s3.amazonaws.com/5b4e23748739c1333f6dc499/5cd2cd183bd6e121e8b32aac/5a018569713d8a1f3014a67a516b44f9/327_SG_ranto.png)
+        ![shotgun spread pattern comparision](https://trello-attachments.s3.amazonaws.com/5b4e23748739c1333f6dc499/5cd2cd183bd6e121e8b32aac/5a018569713d8a1f3014a67a516b44f9/327_SG_ranto.png)
     - Mines
         - Deal normal damage now instead of light damage
         - Increased base damage to 150

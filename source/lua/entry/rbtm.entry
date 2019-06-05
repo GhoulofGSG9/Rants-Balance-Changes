@@ -1,0 +1,9 @@
+modEntry =
+{
+    Client = "lua/RBTM/Client.lua",
+    Server = "lua/RBTM/Server.lua",
+    Predict = "lua/RBTM/Predict.lua",
+    Shared = "lua/RBTM/Shared.lua",
+    FileHooks = "lua/RBTM/ModuleLoader.lua",
+    Priority = 999,
+}

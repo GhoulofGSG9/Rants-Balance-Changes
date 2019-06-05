@@ -5,7 +5,20 @@ local rootPath = "lua/RBTM"
 
 -- Use powershell's dir -Directory or similair to get the list for now
 local moduleNames = {
+    "ARC",
+    "Camoflauge",
+    "Fade",
+    "Gorge",
+    "Grenades",
     "GUIChangelog",
+    "Lerk",
+    "MarineCommAbilities",
+    "MG",
+    "Mine",
+    "Onos",
+    "Shared",
+    "Shotgun",
+    "Skulk",
     "Ultility",
 }
 

@@ -1,0 +1,1 @@
+kBoneShieldMoveFraction = 0.682 -- ~4.5 m/s

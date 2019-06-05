@@ -1,0 +1,1 @@
+kSkulkArmorFullyUpgradedAmount = 25

@@ -1,7 +1,8 @@
 name        = "Rant's balance mod"
 source_dir  = "source"
 output_dir  = "output"
-description = [=[Rant's balance mod]=]
+description = [=[See https://ghoulofgsg9.github.io/Rants-Balance-Changes/ for details]=]
 image       = "preview.jpg"
 tag_modtype = "Gameplay Tweak"
 tag_support = "Must be run on Server"
+publish_id = "6902a269"

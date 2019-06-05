@@ -1,5 +1,5 @@
 # Rantology's Balance Changes
-**SteamWorks Mod ID**: *TBD*
+**SteamWorks Mod ID**: *6902a269*
 
 This mod contains various balance changes based on various ideas of the NS2 balance team.
 

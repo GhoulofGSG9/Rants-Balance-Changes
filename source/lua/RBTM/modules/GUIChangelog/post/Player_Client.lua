@@ -14,8 +14,8 @@ function Player:OnInitLocalClient()
     oldOnInitLocalClient(self)
 
     local oldversion = Client.GetOptionInteger("balancemod_version", 0)
-    if kTBCBVersion > oldversion then
-        Client.SetOptionInteger("balancemod_version", kTBCBVersion)
+    if kRBTMVersion > oldversion then
+        Client.SetOptionInteger("balancemod_version", kRBTMVersion)
         showchangelog()
     end
 

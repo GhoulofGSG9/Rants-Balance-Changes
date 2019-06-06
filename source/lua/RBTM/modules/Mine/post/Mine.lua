@@ -104,7 +104,7 @@ function Mine:CheckEntityExplodesMine(entity)
 
 end
 
-function Mine:CheckAllEntsInTriggerExplodeMine(self)
+function Mine:CheckAllEntsInTriggerExplodeMine()
 
     local ents = self:GetEntitiesInTrigger()
     for e = 1, #ents do

@@ -1,1 +1,1 @@
-NanoShield.kSearchRange = 6
+NanoShield.kSearchRange = 3

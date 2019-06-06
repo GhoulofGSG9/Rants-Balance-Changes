@@ -30,6 +30,8 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
     - Onos
         - Decreased base health to 700 from 900
         - Increased biomass health bonus to 50 from 30
+    - Cyst & Clogs
+        - Receive 7x direct damage from welders, flame throwers and cluster grenades
     
 - Marine
     - Grenades

@@ -12,7 +12,10 @@ local function ClusterFlameModifier(target, _, _, damage, armorFractionUsed, hea
         end
 
         if target.GetIsFlameAble and target:GetIsFlameAble(damageType) then
-            damage = damage * 2
+            local multi = 2
+            if target.GetIsFlameableMultiplier then
+                multi = target:GetIsFlameableMultiplier()
+            end
         end
     end
 

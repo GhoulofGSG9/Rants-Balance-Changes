@@ -18,7 +18,7 @@ do
                 local theta = radiansPer * (pellet - 1)
                 local x = math.cos(theta) * ring.distance
                 local y = math.sin(theta) * ring.distance
-                table.insert(Shotgun.kSpreadVectors, { GetNormalizedVector(Vector(x, y, kShotgunSpreadDistance)), ring.pelletSize, ring.pelletDamage})
+                table.insert(Shotgun.kSpreadVectors, { vector = GetNormalizedVector(Vector(x, y, kShotgunSpreadDistance)), size = ring.pelletSize, damage = ring.pelletDamage})
 
             end
 
@@ -50,9 +50,9 @@ function Shotgun:FirePrimary(player)
             break
         end
 
-        local spreadVector = self.kSpreadVectors[bullet][1]
-        local pelletSize = self.kSpreadVectors[bullet][2]
-        local damage = self.kSpreadVectors[bullet][3]
+        local spreadVector = self.kSpreadVectors[bullet].vector
+        local pelletSize = self.kSpreadVectors[bullet].size
+        local damage = self.kSpreadVectors[bullet].damage
 
         local spreadDirection = shootCoords:TransformVector(spreadVector)
 

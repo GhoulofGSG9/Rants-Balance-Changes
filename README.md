@@ -12,8 +12,8 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
         - Camouflage
             - Now de-cloaks completely at max speed
         - Carapace
-            - Decrease armor bonus for skulks to 15 from 20
-            - Decrease armor bonus for lerks to 20 from 30
+            - Decreased armor bonus for skulks to 15 from 20
+            - Decreased armor bonus for lerks to 20 from 30
     - Gorge
         - Webs don't show up in the kill feed anymore
     - Lerk
@@ -51,7 +51,7 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
         - Change the spread pattern to 13 (1/5/7) pellets total with variable sizes and damage values:
         ![shotgun spread pattern comparision](https://trello-attachments.s3.amazonaws.com/5b4e23748739c1333f6dc499/5cd2cd183bd6e121e8b32aac/5a018569713d8a1f3014a67a516b44f9/327_SG_ranto.png)
     - Mines
-        - Deal normal damage now instead of light damage
+        - Deals now normal damage instead of light damage
         - Increased base damage to 150
         - Increased hp to 50 from 30
         - Fixed that not yet deployed mines also detonated on destruction

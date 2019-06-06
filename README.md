@@ -30,6 +30,8 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
     - Onos
         - Decreased base health to 700 from 900
         - Increased biomass health bonus to 50 from 30
+        -Increase Boneshield Movement Speed to 4.5 (up from 3.3)
+        -Boneshield is now available on Biomass 5 (down from Bio 6)
     - Cyst & Clogs
         - Receive 7x direct damage from welders, flame throwers and cluster grenades
     
@@ -44,6 +46,7 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
             - Decrease grenade max life time to 7.5 secs from 10
         - Pulse
             - Decreased detonation radius to 1 m from 3
+            - Damage increased to 140 from 110
     - Machine Gun
         - Decreased player target damage to 12/13/14/15 from 12/13.2/14.4/15.6
     - Shotgun 

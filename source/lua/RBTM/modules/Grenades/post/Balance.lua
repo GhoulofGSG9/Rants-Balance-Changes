@@ -1,2 +1,3 @@
 kPulseGrenadeDamage = 140
-kPulseGrenadeDamageType = kDamageType.ClusterFlame
+
+kClusterGrenadeDamageType = kDamageType.ClusterFlame

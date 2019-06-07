@@ -33,7 +33,7 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
         - Increase Boneshield Movement Speed to 4.5 (up from 3.3)
         - Boneshield is now available on Biomass 5 (down from Bio 6)
     - Cyst & Clogs
-        - Receive 7x direct damage from welders, flame throwers and cluster grenades
+        - Receive 7x direct damage from welders, flame throwers and cluster grenades (up from 2.5x)
     
 - Marine
     - Grenades

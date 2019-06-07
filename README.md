@@ -22,14 +22,14 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
             - Increased spread to 3.6 radius (from 3.1)
             - Deceased spike diameter to 0.045 (from 0.06)
         - Umbra
-            - Requires now biomass 6 instead of 5
-            - Decreased damage reduction to 20% from 25%
-            - Decreased umbra cloud life time to 2.5 secs from 4
+            - Now requires biomass 6 (up from 5)
+            - Decreased damage reduction to 20% (from 25%)
+            - Decreased umbra cloud life time to 2.5 seconds (from 4)
     - Fade
-        - Increased initial blink boost to 15 m/s from 13.5
+        - Increased initial blink boost to 15 m/s (from 13.5)
     - Onos
-        - Decreased base health to 700 from 900
-        - Increased biomass health bonus to 50 from 30
+        - Decreased base health to 700 (from 900)
+        - Increased biomass health bonus to 50 (from 30)
         - Increase Boneshield Movement Speed to 4.5 (up from 3.3)
         - Boneshield is now available on Biomass 5 (down from Bio 6)
     - Cyst & Clogs
@@ -38,15 +38,15 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
 - Marine
     - Grenades
         - Cluster
-            - Deals now 5x damage vs. flammable structures and 2.5x vs. all other structures but only 50% vs. players
-            - Sets targets on fire
+            - Now deals 5x damage vs. flammable structures, 2.5x vs. all other structures. Deals 50% damage to players.
+            - Now sets targets on fire
             - Burns away umbra, spores and bile bombs
         - Nerve Gas
-            - Decreased cloud life time to 4.5 secs from 6
-            - Decrease grenade max life time to 7.5 secs from 10
+            - Decreased cloud life time to 4.5 seconds (from 6)
+            - Decrease grenade max life time to 7.5 seconds (from 10)
         - Pulse
-            - Decreased detonation radius to 1 m from 3
-            - Damage increased to 140 from 110
+            - Decreased detonation radius decreased to 1 meter (down from 3)
+            - Damage increased to 140 (from 110)
     - Machine Gun
         - Decreased player target damage to 12/13/14/15 from 12/13.2/14.4/15.6
     - Shotgun 
@@ -64,6 +64,6 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
         - Decreased snap radius to 3 m from 6
         
     - ARC
-        - Decrease damage to 530 from 630
-        - Changed hp to 2600/400 form 3000/200 (shifting more hp to armor)
+        - Damage reduced to 530 (from 630)
+        - Changed hp to 2600/400 fromm 3000/200 (shifting more hp to armor)
         - Fixed that ARCs didn't save and restore their previous armor value properly when changing their deployment state.

@@ -19,7 +19,7 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
     - Lerk
         - Changed hp to 190/20 from 150/45 (shifting more hp to health)
         - Spikes
-            - Increased spread to 3.6 radians from 3.1
+            - Increased spread to 3.6 radius from 3.1
             - Deceased spike diameter to 0.045 from 0.06
         - Umbra
             - Requires now biomass 6 instead of 5

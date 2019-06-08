@@ -2,9 +2,9 @@ do
     Shotgun.kSpreadVectors = {}
     local kShotgunRings =
     {
-        { distance = 0.0, pelletCount = 1, pelletSize = 0.016, pelletDamage = 25 },
-        { distance = 0.5, pelletCount = 5, pelletSize = 0.016, pelletDamage = 15 },
-        { distance = 1.5, pelletCount = 7, pelletSize = 0.15, pelletDamage = 10 },
+        { distance = 0.0, pelletCount = 1, pelletSize = 0.016, pelletDamage = 15 },
+        { distance = 0.6, pelletCount = 5, pelletSize = 0.016, pelletDamage = 17 },
+        { distance = 1.6, pelletCount = 7, pelletSize = 0.15, pelletDamage = 10 },
     }
 
     local function CalculateShotgunSpreadVectors()

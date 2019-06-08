@@ -5,6 +5,15 @@ This mod contains various balance changes based on various ideas of the NS2 bala
 
 Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
 
+## Latest Changes 
+
+### 8/6/2019
+
+- Shotgun
+    - Reduced damage of center pellet to 15 from 25
+    - Increased damage of inner ring's pellets to 17 from 15
+    - Increased center offset for inner and outer ring's pellets by 0.1
+
 ## All Changes
 
 - Alien
@@ -51,7 +60,10 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
         - Decreased player target damage to 12/13/14/15 from 12/13.2/14.4/15.6
     - Shotgun 
         - Removed damage falloff
-        - Change the spread pattern to 13 (1/5/7) pellets total with variable sizes and damage values:
+        - Change the spread pattern to 13 (1/5/7) pellets total with variable calibers and damage values:
+            - 1 pellet in the very center causing 15 dmg and a caliber of 16 mm
+            - 5 pellets with a center offset of 0.6 (inner ring) dealing 17 dmg and and a caliber of 16 mm
+            - 7 pellets with a center offset of 1.6 (outer ring) dealing 17 dmg and and a caliber of 150 mm
         ![shotgun spread pattern comparision](https://trello-attachments.s3.amazonaws.com/5b4e23748739c1333f6dc499/5cd2cd183bd6e121e8b32aac/5a018569713d8a1f3014a67a516b44f9/327_SG_ranto.png)
     - Mines
         - Damage type changed to Normal (from Light)

@@ -8,6 +8,7 @@ local moduleNames = {
     "ARC",
     "Camoflauge",
     "Fade",
+    "FlameDamage",
     "Gorge",
     "Grenades",
     "GUIChangelog",

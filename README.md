@@ -9,6 +9,7 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
 
 ### 8/6/2019
 
+- Fixed that the Flame damage type (Cyst & Clog) changes weren't loaded
 - Shotgun
     - Reduced damage of center pellet to 15 from 25
     - Increased damage of inner ring's pellets to 17 from 15

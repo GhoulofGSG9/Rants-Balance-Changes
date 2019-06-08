@@ -1,3 +1,77 @@
+function ARC:UpdateOrders(deltaTime)
+
+    -- If deployed, check for targets.
+    local currentOrder = self:GetCurrentOrder()
+
+    if self:GetInAttackMode() then
+
+        if self.targetPosition then
+
+            local targetEntity = Shared.GetEntity(self.targetedEntity)
+            if targetEntity then
+                self.targetPosition = GetTargetOrigin(targetEntity)
+            end
+
+            if self:ValidateTargetPosition(self.targetPosition) then
+                self:SetTargetDirection(self.targetPosition)
+            else
+                self.targetPosition = nil
+                self.targetedEntity = Entity.invalidId
+            end
+
+        else
+
+            -- Check for new target every so often, but not every frame.
+            local time = Shared.GetTime()
+            if self.timeOfLastAcquire == nil or (time > self.timeOfLastAcquire + 0.2) then
+
+                self:AcquireTarget()
+                self.timeOfLastAcquire = time
+
+            end
+
+        end
+
+    elseif currentOrder then
+
+        self.targetPosition = nil
+        self.targetedEntity = Entity.invalidId
+
+        -- Move ARC if it has an order and it can be moved.
+        local canMove = self.deployMode == ARC.kDeployMode.Undeployed
+        if currentOrder:GetType() == kTechId.Move and canMove then
+            self:UpdateMoveOrder(deltaTime)
+        elseif currentOrder:GetType() == kTechId.ARCDeploy then
+            self:Deploy()
+        end
+
+    else
+        self.targetPosition = nil
+        self.targetedEntity = Entity.invalidId
+    end
+
+end
+
+function ARC:AcquireTarget()
+
+    local finalTarget = self.targetSelector:AcquireTarget()
+
+    if finalTarget ~= nil and self:ValidateTargetPosition(finalTarget:GetOrigin()) then
+
+        self:SetMode(ARC.kMode.Targeting)
+        self.targetPosition = GetTargetOrigin(finalTarget)
+        self.targetedEntity = finalTarget:GetId()
+
+    else
+
+        self:SetMode(ARC.kMode.Stationary)
+        self.targetPosition = nil
+        self.targetedEntity = Entity.invalidId
+
+    end
+
+end
+
 function ARC:PerformAttack()
 
     local distToTarget = self.targetPosition and (self.targetPosition - self:GetOrigin()):GetLengthXZ()
@@ -13,7 +87,7 @@ function ARC:PerformAttack()
         local hitEntities = GetEntitiesWithMixinWithinRange("Live", self.targetPosition, ARC.kSplashRadius)
 
         -- Do damage to every target in range
-        RadiusDamage(hitEntities, self.targetPosition, ARC.kSplashRadius, ARC.kAttackDamage, self, true)
+        RadiusDamage(hitEntities, self.targetPosition, ARC.kSplashRadius, ARC.kAttackDamage, self, true, nil, true)
 
         -- Play hit effect on each
         for _, target in ipairs(hitEntities) do

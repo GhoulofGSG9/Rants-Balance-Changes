@@ -14,6 +14,8 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
     - Reduced damage of center pellet to 15 from 25
     - Increased damage of inner ring's pellets to 17 from 15
     - Increased center offset for inner and outer ring's pellets by 0.1
+- ARC
+    - Changed ARC's radial damage falloff to use XZ distance (ignore Y (height) axis). So ARCs total damage is consistent and doesn't depend on the height of the main target's model origin.
 
 ## All Changes
 
@@ -80,3 +82,4 @@ Join the official ns2 discord server (discord.gg/ns2) to leave feedback!
         - Damage reduced to 530 (from 630)
         - Changed hp to 2600/400 fromm 3000/200 (shifting more hp to armor)
         - Fixed that ARCs didn't save and restore their previous armor value properly when changing their deployment state.
+        - Changed ARC's radial damage falloff to use XZ distance (ignore Y (height) axis). So ARCs total damage is consistent and doesn't depend on the height of the main target's model origin.
